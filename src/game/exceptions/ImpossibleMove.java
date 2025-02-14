@@ -1,0 +1,7 @@
+package game.exceptions;
+
+public class ImpossibleMove extends Exception {
+    public ImpossibleMove(String message) {
+        super(message);
+    }
+}
